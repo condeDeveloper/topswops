@@ -1,0 +1,15 @@
+{
+  "name": "topswops",
+  "version": "1.0.0",
+  "description": "Topswops: a iteracao de Conway varrida em todas as permutacoes, com a prova de terminacao conferida passo a passo, em Node puro.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
